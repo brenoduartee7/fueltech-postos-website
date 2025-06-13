@@ -4,40 +4,58 @@ import ProductCard from './ProductCard';
 const ProductsSection = () => {
   const products = [
     {
-      title: "Bicos de Abastecimento",
-      description: "Bicos automáticos de alta qualidade para diferentes tipos de combustível, com sistema de segurança e durabilidade superior.",
-      image: "/lovable-uploads/0352de4c-9628-46d8-93eb-8b41fe62f31b.png",
-      features: ["Sistema automático", "Alta durabilidade", "Segurança certificada"]
+      title: "Bombas de Combustível Multiproduto",
+      description: "Bombas de combustível de alta tecnologia com capacidade para múltiplos produtos, ideais para postos de grande movimento.",
+      image: "/lovable-uploads/f290dd43-84bc-4440-847e-7006cd191d91.png",
+      features: ["Multiproduto", "Alta capacidade", "Tecnologia avançada"]
     },
     {
-      title: "Painéis de Preços",
-      description: "Painéis eletrônicos de LED para exibição de preços, com alta visibilidade e fácil programação para diferentes combustíveis.",
-      image: "/lovable-uploads/75267bb3-d6e9-4361-8e33-8220338e44aa.png",
-      features: ["Display LED", "Alta visibilidade", "Programação fácil"]
+      title: "Tanques de Armazenamento Subterrâneo",
+      description: "Tanques cilíndricos de alta capacidade para armazenamento seguro de combustíveis, com revestimento anticorrosivo.",
+      image: "/lovable-uploads/ae9e1125-b7fb-4907-88f8-30d6fe06ce73.png",
+      features: ["Alta capacidade", "Anticorrosivo", "Segurança certificada"]
     },
     {
-      title: "Filtros de Diesel",
-      description: "Sistemas de filtragem avançados para diesel, garantindo a pureza do combustível e proteção dos equipamentos.",
-      image: "/lovable-uploads/2cf24fe7-1ad9-4a87-bb46-0bfa1a008ba2.png",
-      features: ["Filtragem avançada", "Proteção de equipamentos", "Fácil manutenção"]
+      title: "Sistemas de Monitoramento TLS4",
+      description: "Console de monitoramento eletrônico avançado para controle de tanques e detecção de vazamentos em tempo real.",
+      image: "/lovable-uploads/5f3f5b72-9f77-4d41-96cf-18c508cc6dca.png",
+      features: ["Monitoramento em tempo real", "Detecção de vazamentos", "Interface touch screen"]
     },
     {
-      title: "Sistemas de Filtragem BRF",
-      description: "Equipamentos de filtragem industrial de alta capacidade para grandes volumes de combustível.",
-      image: "/lovable-uploads/9eb19be3-5b74-42a9-b316-12598613ba2c.png",
-      features: ["Alta capacidade", "Uso industrial", "Tecnologia avançada"]
+      title: "Console TLS450 Plus",
+      description: "Sistema integrado de monitoramento com impressora e display colorido para controle completo de estoque de combustíveis.",
+      image: "/lovable-uploads/313f3588-0d06-42f4-8ac2-172fb113c5fb.png",
+      features: ["Display colorido", "Impressora integrada", "Controle de estoque"]
     },
     {
-      title: "Unidades de Filtragem Diesel",
-      description: "Unidades completas de filtragem com sistema integrado para tratamento e purificação de diesel.",
-      image: "/lovable-uploads/8196ab2d-3676-4a61-a822-2d744d9eda93.png",
-      features: ["Sistema integrado", "Tratamento completo", "Certificação BRF"]
+      title: "Bomba de Combustível Diesel",
+      description: "Bomba específica para diesel com sistema de filtragem integrado e alta precisão na medição.",
+      image: "/lovable-uploads/08e27e08-d1cd-49bf-b74b-71606b91665c.png",
+      features: ["Específica para diesel", "Sistema de filtragem", "Alta precisão"]
     },
     {
-      title: "Consoles Eletrônicos",
-      description: "Sistemas de controle e monitoramento eletrônico para bombas de combustível com display digital.",
-      image: "/lovable-uploads/e87fb8e9-0238-403b-9ad5-4899fb9f75dc.png",
-      features: ["Controle digital", "Monitoramento", "Interface intuitiva"]
+      title: "Bomba Standard Dupla",
+      description: "Bomba de combustível com dois bicos de abastecimento, ideal para postos com fluxo médio de veículos.",
+      image: "/lovable-uploads/09a16747-0ef6-4eba-b65b-f9745ee17f80.png",
+      features: ["Duplo abastecimento", "Display digital", "Eficiência energética"]
+    },
+    {
+      title: "Bomba Single Product",
+      description: "Bomba compacta para um único tipo de combustível, perfeita para estabelecimentos com demanda específica.",
+      image: "/lovable-uploads/91371790-6bea-40bc-86bc-749ccfa35849.png",
+      features: ["Produto único", "Design compacto", "Fácil instalação"]
+    },
+    {
+      title: "Bomba Premium Dupla",
+      description: "Bomba de alta performance com dois pontos de abastecimento e sistema eletrônico avançado de controle.",
+      image: "/lovable-uploads/c0f88b22-be72-4277-98e8-25eb42999585.png",
+      features: ["Alta performance", "Controle eletrônico", "Design moderno"]
+    },
+    {
+      title: "Acessórios de Vedação",
+      description: "Kit completo de vedações e conexões para tanques subterrâneos, garantindo segurança e prevenção de vazamentos.",
+      image: "/lovable-uploads/57d726e7-0e39-43a7-a8cd-69b6d5e5bfcd.png",
+      features: ["Kit completo", "Prevenção de vazamentos", "Materiais certificados"]
     }
   ];
 
