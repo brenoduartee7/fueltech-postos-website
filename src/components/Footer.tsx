@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <img 
-              src="/lovable-uploads/506d7de9-27dd-457d-b90f-ed6ece22b834.png" 
+              src="/lovable-uploads/d2a09d3a-6291-47f0-be50-72558c15d15b.png" 
               alt="Fuel Tech Postos" 
               className="h-16 w-auto mb-4"
             />

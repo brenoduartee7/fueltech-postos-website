@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <img 
-            src="/lovable-uploads/e3cdb229-487c-4c62-802e-3b427ac664f4.png" 
+            src="/lovable-uploads/d2a09d3a-6291-47f0-be50-72558c15d15b.png" 
             alt="Fuel Tech Postos" 
             className="h-32 md:h-40 w-auto mx-auto mb-8"
           />
