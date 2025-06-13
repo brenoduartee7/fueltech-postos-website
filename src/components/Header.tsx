@@ -18,16 +18,8 @@ const Header = () => {
     <header className="bg-slate-900 text-white sticky top-0 z-50 shadow-lg">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/d7be9d67-f63c-483e-9f6e-3d9a2f01586a.png" 
-              alt="Fuel Tech Postos" 
-              className="h-12 w-auto"
-            />
-          </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          {/* Desktop Navigation - Centered */}
+          <nav className="hidden md:flex space-x-8 mx-auto">
             <button 
               onClick={() => scrollToSection('inicio')}
               className="hover:text-blue-400 transition-colors"
@@ -58,7 +50,7 @@ const Header = () => {
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden text-white hover:bg-slate-800"
+            className="md:hidden text-white hover:bg-slate-800 ml-auto"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
